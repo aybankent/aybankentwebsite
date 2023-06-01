@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ivan's Art Portfolio Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+
+</head>
+<body>
+    <!------Header Section------->
+    <header>
+        <a href="#" class="logo"> BAN'S ARTS </a>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <nav class="navlist">
+          <ul>
+            <li><a href="#content">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery1">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </header>
+      
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onlick = function() {
+      
+        navlist = document.querySelector(".navlist");
+        navlist.classList.toggle("active");
+      }
+    </script>
+
+    <div class="content">
+      
+        <section class="content" id="content">
+          <div class="content-text">
+            <div class="slide">
+                <span class="one"> Hello, I'm </span>
+                <span class="two"> Ivan Kent </span>
+            </div>
+            <h3> DIGITAL ARTIST / ANIMATOR </h3>
+            <div class="button">
+                <a href="#about" class="btn">About Me</a>
+                <a href="#gallery1" class="btn">My Projects</a>
+            </div>
+          </div>
+        </section>
+      
+    </div>
+
+    <!---------Home Section‒‒‒‒‒‒‒‒‒‒-->
+   
+    <section class="home">
+        <h1>Welcome to Ban's Arts</h1>
+    </section>
+
+    <section class="featured-works">
+        <h2>Featured Works</h2>
+        <div class="artwork">
+           <a href="#trad-artwork">
+            <img src="01_Dragon.jpg" alt="Artwork 1">
+            <h3>TRADITIONAL ARTS</h3>
+          </a>
+         </div>
+        <div class="artwork">
+          <a href="#dig-artwork">
+            <img src="01_Robot.jpg" alt="Artwork 2">
+            <h3>DIGITAL ARTS</h3>
+          </a>
+        </div>
+        <div class="artwork">
+          <a href="#threedi-artwork">
+            <img src="01_3DEnvironment.png" alt="Artwork 3">
+            <h3>3D ARTWORKS</h3>
+          </a>
+        </div>
+        <div class="artwork">
+          <a href="#graphic-arts">
+            <img src="00_isarog.png" alt= "Artwork 4">
+            <h3>GRAPHIC ARTS</h3>
+          </a>
+        </div>
+        <div class="artwork">
+          <a href="#animation">
+          <img src="01_2DAnimation.png" alt="Artwork 5">
+          <h3>2D ANIMATIONS</h3>
+        </a>
+      </div>
+
+    <section class="button-container">
+        <a href="#gallery1" class="btn">View Gallery</a>
+    </section>
+
+    </section>
+
+    <!---------About Section‒‒‒‒‒‒‒‒‒‒-->  
+    <section class="about" id="about"> 
+      <div class="about-me-text">
+        <h1 class="title">ABOUT <span>ME</span></h1>
+      </div>
+
+      <div class="about-main">
+        <img src="aboutme.jpg" alt="About Me">
+     
+      <div class="about-text">
+        <h3>Hello, I'm Ivan Kent P. Parajes</h3>
+        <h4 id="typing-effect"> DIGITAL ARTIST / ANIMATION STUDENT </h4>
+        <p>A digital artist and graphic artist based in Goa, Camarines Sur. I'm also an animation student at Bicol State College of Applied Sciences and Technology, where I have the opportunity to develop my skills and learn various animation techniques and software. 
+        I am constantly honing my craft through commissions and personal projects. My ultimate goal is to create my own animated film and series, where I can share my stories and explore diverse ethnic cultures.</p>
+        <p>Through animation, I want to showcase different backgrounds and perspectives, fostering inclusivity and opening doors for underrepresented voices. Join me on my artistic journey as I continue to develop my skills, learn new animation techniques, and create captivating storytelling experiences.
+        Together, let's challenge norms and contribute to a more inclusive entertainment industry. Thank you for your support, and I invite you to explore my portfolio and be part of this exciting creative adventure.</p>
+        <div class="button">
+          <a href="#contacts" class="btn">Message Me</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <!---------Gallery Section‒‒‒‒‒‒‒‒‒‒-->
+    <section class="gallery1" id="gallery1">
+
+      <section class="gallery" id="trad-artwork">
+          <h1 class="title">GALLERY</h1>
+          <h2>Traditional Arts</h2>
+          
+        <div class="photo-gallery">
+
+          <div class="trad-artwork">
+            <div class="photo">
+              <img src="01_Dragon.jpg" alt="Traditional Artwork 1">
+              <h3>Air Dragon</h3>
+            </div>
+            <div class="photo">
+              <img src="04_WaterDragon.jpg" alt="Traditional Artwork 4">
+              <h3>Water Dragon</h3>
+            </div>
+          </div>
+          
+          <div class="trad-artwork">
+            <div class="photo">
+              <img src="05_Man.jpg" alt="Traditional Artwork 5">
+              <h3>Anatomy Pose</h3>
+            </div>
+            <div class="photo">
+              <img src="02_Monica.jpg" alt="Traditional Artwork 2">
+              <h3>Monica Rambeau</h3>
+            </div>
+          </div>
+
+          <div class="trad-artwork">
+            <div class="photo">
+              <img src="03_Kiss.jpg" alt="Traditional Artwork 3">
+              <h3>Kiss Fanart</h3>
+            </div>
+            <div class="photo">
+              <img src="06_Fox.jpg" alt="Traditional Artwork 6">
+              <h3>Fox</h3>
+            </div>
+          </div>
+          
+        </div>
+          
+      </section>
+
+      <section class="gallery" id="dig-artwork">
+          <h2>Digital Arts</h2>
+
+          <div class="photo-gallery">
+
+          <div class="dig-artwork">
+            <div class="photo">
+              <img src="04_Knight.jpg" alt="Digital Artwork 4">
+              <h3>Warrior (Character Design)</h3>
+            </div>
+            <div class="photo">
+              <img src="02_Cowboy.jpg" alt="Digital Artwork 2">
+              <h3>Cowboy</h3>
+            </div>
+            <div class="photo">
+              <img src="03_Alien.jpg" alt="Digital Artwork 3">
+              <h3>Alien</h3>
+            </div>
+          </div>
+    
+          <div class="dig-artwork">
+            <div class="photo">
+              <img src="01_Robot.jpg" alt="Digital Artwork 1">
+              <h3>Robot</h3>
+            </div>
+            <div class="photo">
+              <img src="05_Archer.jpg" alt="Digital Artwork 5">
+              <h3>Archer (Character Design)</h3>
+            </div>
+            <div class="photo">
+              <img src="07_Oda Sa Gabi.jpg" alt="Digital Artwork 7">
+              <h3>Ode To The Night</h3>
+            </div>
+          </div>
+
+          <div class="dig-artwork">
+            <div class="photo">
+              <img src="06_Wizard.jpg" alt="Digital Artwork 6">
+              <h3>Wizard (Character Design)</h3>
+            </div>
+            <div class="photo">
+              <img src="08_Character Design.png" alt="Digital Artwork 8">
+              <h3>Character Design</h3>
+            </div>
+            <div class="photo">
+              <img src="09_SkyCity.png" alt="Digital Artwork 9">
+              <h3>Sky City</h3>
+            </div>
+          </div>
+
+        </div>
+
+        </section>
+
+        <section class="gallery" id="threedi-artwork">
+          <h2>3D Artworks</h2>
+        
+          <div class="photo-gallery">
+
+            <div class="threedi-artwork">
+              <div class="photo">
+                <img src="01_3DEnvironment.png" alt="3D Artwork 1">
+                <h3>3D Environment</h3>
+              </div>
+              <div class="photo">
+                <img src="02_3DBondee.png" alt="3D Artwork 2">
+                <h3>3D Bondee Room</h3>
+              </div>
+              <div class="photo">
+                <img src="03_3DChessPieces.png" alt="3D Artwork 3">
+                <h3>3D Chess Pieces</h3>
+              </div>
+            </div>
+            
+            <div class="threedi-artwork"> 
+              <div class="photo">
+                <img src="04_Axe.JPG" alt="3D Artwork 4">
+                <h3>3D Axe Weapon</h3>
+              </div>
+              <div class="photo">
+                <img src="05_Robot.PNG" alt="3D Artwork 5">
+                <h3>3D Robot</h3>
+              </div>
+              <div class="photo">
+                <img src="06_Pokemon.JPG" alt="3D Artwork 6">
+                <h3>3D Pokemon</h3>
+              </div>
+            </div> 
+
+          </div> 
+        </section>
+        
+        <section class="gallery" id="graphic-arts">
+          <h2>Graphic Arts</h2>
+        
+          <div class="photo-gallery">
+
+            <div class="graphic-arts">
+              <div class="photo">
+                <img src="01_brochure.png" alt="Graphic Art 1">
+                <h3>Caramoan Travel Brochure (Back Cover)</h3>
+              </div>
+              <div class="photo">
+                <img src="02_brochure.png" alt="Graphic Art 2">
+                <h3>Caramoan Travel Brochure (Front Cover)</h3>
+              </div>
+              <div class="photo">
+                <img src="03_isarog.png" alt="Graphic Art 3">
+                <h3>Mt. Isarog Travel Brochure (Back Cover)</h3>
+              </div>
+            </div>
+              
+            <div class="graphic_arts">              
+              <div class="photo">
+                <img src="04_isarog.png" alt="Graphic Art 4">
+                <h3>Mt. Isarog Travel Brochure (Front Cover)</h3>
+              </div>       
+              <div class="photo">
+                <img src="06_poster.png" alt="Graphic Art 6">
+                <h3>Privacy and Security Poster </h3>
+              </div> 
+            </div> 
+
+            <div class="graphic_arts"> 
+              <div class="photo">
+                <img src="05_poster.png" alt="Graphic Art 5">
+                <h3>Computer Ethics Poster</h3>
+              </div>
+              <div class="photo">
+                <img src="07_infographics.png" alt="Graphic Art 7">
+              <h3>Architecture Infographics</h3>
+              </div>
+            </div>
+          </div> 
+        </section>
+
+        <section class="gallery" id="animation">
+          <h2>2D Animation</h2>
+
+          <div class="video-gallery">
+
+            <div class="animation">
+              <div class="video">
+                <video src="01_First Animation.mp4" controls></video>
+                <h3>First Animation</h3>
+              </div>
+              <div class="video">
+                <video src="02_Bouncing Ball.mp4" controls></video>
+                <h3>Bouncing Ball Animation</h3>
+              </div>
+            </div>
+            
+            <div class="animation">
+              <div class="video">
+                <video src="03_Walk Cycle.mp4" controls></video>
+                <h3>Walk Cycle Animation</h3>
+              </div>
+              <div class="video">
+                <video src="04_Dancing Dinosaur.mp4" controls></video>
+                <h3>Dancing Dinosaur</h3>
+              </div>
+            </div>
+
+          </div>
+          
+      </section>
+    </section>
+         
+    <!---------Contacts Section-‒‒‒‒‒‒‒‒‒‒-->
+    <section class="contact" id="contact">
+      <h1>CONTACT ME</h1>
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Get in Touch !!!</h3>
+          <p class="text">
+              For work and business inquiries, please feel free to utilize the contact form 
+              provided on the side or reach out to me using the contact details listed below:
+          </p>
+  
+          <div class="info">
+            <div class="information">
+              <img src="location_icon.png" class="icon" alt="" />
+              <p>Belen Street, Goa, Camarines Sur</p>
+            </div>
+            <div class="information">
+              <img src="email_icon.png" class="icon" alt="" />
+              <p>pivankent@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="phone_icon.png" class="icon" alt="" />
+              <p>09694460784</p>
+            </div>
+          </div>
+  
+          <div class="social-media">
+            <p>Follow Me On:</p>
+            <div class="social-icons">
+              <div class="fb-social-icons">
+                <a href="https://www.facebook.com/ivankent.parajes/" target="_blank">
+                  <img src="fb_icon.png" class="icon" alt="" />
+                </a>
+              </div>
+              <div class="twt-social-icons">
+                <a href="https://twitter.com/banbanparajes" target="_blank">
+                  <img src="twt_icon.png" class="icon" alt="" />
+                </a>
+              </div>
+              <div class="insta-social-icons">
+                <a href="https://www.instagram.com/ivankentp/" target="_blank">
+                  <img src="insta_icon.png" class="icon" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+        
+          <h2>Got a Message?</h2>
+            <div class="input-container">
+              <input type="text" id="firstName" placeholder="First Name">
+              <br><br>           
+              <input type="text" id="lastName" placeholder="Last Name">
+              <br><br>                 
+              <input type="email" id="email" placeholder="Email">
+              <br><br>                          
+              <input type="number" id="phone" placeholder="Phone">
+              <br><br>               
+            <div class="input-container textarea">
+              <textarea id="question" placeholder="Message" rows="4"></textarea>
+              <br><br>
+            </div> 
+          </div> 
+          <button onclick="sendMessage()">Send Message</button>         
+        </form>
+
+    </section>
+
+    <!---------Footer Section--‒‒‒‒‒‒‒‒‒‒-->
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h3> About <div class="underline"><span></span></div> </h3>
+          <p> I'm Ivan Kent P. Parajes, a 20-year-old digital and graphic artist 
+            who is currently pursuing a degree in animation. Experience a fusion of 
+            creativity and technology in my portfolio of stunning artwork. </p>
+        </div>
+    
+        <div class="col">
+          <h3> Links <div class="underline"><span></span></div> </h3>
+          <ul>
+            <li><a href="#content">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery1">Gallery</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+    
+        <div class="col">
+          <h3> Categories <div class="underline"><span></span></div> </h3>
+          <ul>
+            <li><a href="#trad-artwork">Traditional Arts</a></li>
+            <li><a href="#dig-artwork">Digital Arts</a></li>
+            <li><a href="#threedi-artwork">3D Artworks</a></li>
+            <li><a href="#graphic-arts">Graphic Arts</a></li>
+            <li><a href="#animation">2D Animation</a></li>
+          </ul>
+        </div>
+    
+        <div class="col">
+          <h3> Contacts <div class="underline"><span></span></div> </h3>
+          <p> <span> Address: </span> Belen St. Goa Camarines Sur</p>
+          <p> <span> Email: </span> pivankent@gmail.com</p>
+          <p> <span> Phone: </span> 09694460784</p>
+    
+          <div class="social-icons">
+            <div class="fb-icon">
+              <a href="https://www.facebook.com/ivankent.parajes/" target="_blank">
+                <img src="facebook.png" class="icon" alt="Facebook" />
+              </a>
+            </div>
+            <div class="twt-icon">
+              <a href="https://twitter.com/banbanparajes" target="_blank">
+                <img src="twitter.png" class="icon" alt="Twitter" />
+              </a>
+            </div>
+            <div class="insta-icon">
+              <a href="https://www.instagram.com/ivankentp/" target="_blank">
+                <img src="instagram.png" class="icon" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <hr>
+      <p class="copyright"> HTML Website by Ivan Kent P. Parajes </p>
+    
+    </footer>
+    
+
+  <!----scrollreveal effect-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>
